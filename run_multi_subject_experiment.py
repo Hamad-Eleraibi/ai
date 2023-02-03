@@ -1,10 +1,7 @@
-
 from __future__ import print_function
 import argparse
-
 from scipy.stats import stats
 from sklearn.model_selection import train_test_split
-
 from datasets.load_datasets import download_and_cache_file
 from models import get_only_P300_model_LSTM_CNN, My_LDA_public, get_only_P300_model_CNN, get_only_P300_model_LSTM
 from utils import create_data_rep_training_public
